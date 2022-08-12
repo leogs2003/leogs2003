@@ -26,7 +26,18 @@
  
 </div>
 
+ - usa : Platane/snk@master
+        id : cobra-gif
+        com :
+          github_user_name : biaaimi
+          svg_out_path : dist/github-contribution-grid-snake.svg
 
+      - usa : crazy-max/ghaction-github-pages@v2.1.3
+        com :
+          target_branch : saída
+          build_dir : dist
+        ambiente :
+          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }}
 
 - 📫 How to reach me: leogs2003@gmail.com
 - 😄 Pronouns: Léo
