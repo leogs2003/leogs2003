@@ -29,7 +29,7 @@
  - usa : Platane/snk@master
         id : cobra-gif
         com :
-          github_user_name : biaaimi
+          github_user_name : legs2003
           svg_out_path : dist/github-contribution-grid-snake.svg
 
       - usa : crazy-max/ghaction-github-pages@v2.1.3
